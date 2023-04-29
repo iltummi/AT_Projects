@@ -5,3 +5,4 @@ Repository with all my academic projects
   - Trajectory planning for a spacecraft from Earth to Enceladus
   - Autonomous goalkeeper 
   - Model Predicted Control for COVID-19 using Sensitivity Analisys Toolbox
+  - Robust control of a manipulator flexible link
