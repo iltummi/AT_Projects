@@ -4,4 +4,4 @@ Repository with all my academic projects
   - Coupled GPS/INS integration for UAV Applications
   - Trajectory planning for a spacecraft from Earth to Enceladus
   - Autonomous goalkeeper 
-  - 
+  - Model Predicted Control for COVID-19 using Sensitivity Analisys Toolbox
