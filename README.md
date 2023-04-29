@@ -6,3 +6,6 @@ Repository with all my academic projects
   - Autonomous goalkeeper 
   - Model Predicted Control for COVID-19 using Sensitivity Analisys Toolbox
   - Robust control of a manipulator flexible link
+  - Adaptive Cruise control for a virtual car simulator
+  - Remote control of a dc motor with PLC
+  - Joypad controlled tank
