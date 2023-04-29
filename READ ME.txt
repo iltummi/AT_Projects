@@ -1,0 +1,56 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww20360\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs48 \cf0 READ ME\
+
+\fs28 %%%%%%%%%%%%%%%%%%%%\
+\
+main:			main script for launch all control approach\
+Gatto:			Gatto Model with Lockdown Control in Susceptible and Exposed Individuals\
+Parameters:		all parameters for Gatto model\
+operative_R0:	To calculate the operative R0 \
+\
+%%%%%%%%%%%%%%%%%%%%\
+Paths->\
+Optimal Lockdown:\
+	\'b7cost_fun_sa:			Cost function with weight u for economic losses and human lives\
+	\'b7lockdown_sa:		Optimal Lockdown with Simulated Annealing and constant U0\
+	\'b7optimal_lockdown:	Optimal Lockdown with Simulated Annealing and U0 equal to U0 extract from MultiStart\
+\
+Cyclic Lockdown:	\
+	\'b7step_cost_fun:			Gatto cost function with stepped lockdown (using \'93for\'94 cycle)\
+	\'b7step_function_strategy:	Optimal Lockdown with Simulated Annealing using a stepped control output\
+\
+MPC:	\
+	\'b7gatto_real:			Gatto Model changed using Sensitivity Analysis Toolbox \
+	\'b7parameters_real:		all parameters for \'93Real\'94 Model\
+	\'b7MPC_main:			Optimal Lockdown with MPC strategy\
+	\'b7new_cost_function:	Cost function with weight u for economic losses and human lives\
+	\'b7vincoli_open_loop:	Constrain for MPC implementation \
+	\
+	\'b7plot_mpc:			main to plot the MPC strategy \
+						*we used an MPC_data to load the result \
+\
+ODE series:\
+	\'b7gatto_ode:					Gatto Model with 18-states for Ode Series implementation\
+	\'b7parameters_ODE:			all parameters for Ode Model\
+	\'b7ODE_cost_fun:				Cost function with weight u for economic losses and human lives \
+	\'b7free_response_ODE:			Free response of Ode Model\
+	\'b7const_lockdown_ODE:		Optimal Lockdown using Simulated Annealing and constant U0 in Ode Model\
+	\'b7decreasing_lockdown_ODE:	Optimal Lockdown using Simulated Annealing and decreasing U0 in Ode Model\
+	\
+	%
+\fs36 test 
+\fs28 for a cyclic lockdown using ode series:	\
+	\'b7step_cost_fun:				Gatto cost function with stepped lockdown (using \'93for\'94 cycle)\
+	\'b7cyclic_lockdown_ODE:		Optimal Lockdown with Simulated Annealing using a stepped control output in Ode Model\
+\
+Simulink:\
+	\'b7gattosim:	Gatto Model implemented in Simulink for use Sensitivity Analysis Toolbox\
+	\'b7par_sim:	All parameters for Simulink Model\
+\
+%%%%%%%%%%%%%%%%%%%%}
