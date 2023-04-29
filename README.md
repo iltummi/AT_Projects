@@ -1,4 +1,4 @@
-# AT_Acaedmic_Projects
+# AT_Academic_Projects
 Repository with all my academic projects
   - Closed Loop DDP for a generic manipulator: an iLQR implementation
   - Coupled GPS/INS integration for UAV Applications
